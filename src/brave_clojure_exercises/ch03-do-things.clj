@@ -97,5 +97,4 @@
             (into body-parts (matching-parts part amount-of-parts))) [] asym-body-parts))
 
 (symmetrize-body-parts asym-spyder-body-parts 3)
-
 ;;;;
