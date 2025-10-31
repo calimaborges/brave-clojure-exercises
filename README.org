@@ -1,0 +1,36 @@
+* brave-clojure-exercises
+Solutions to the exercises in the book /Clojure for the Brave and True/.
+
+The goal of this project is to provide clear, readable, and idiomatic
+solutions for each exercise, primarily for my own learning and as a
+reference.
+
+** Project Structure
+All solutions are located within the [[file:src/brave_clojure_exercises/]]
+directory. The files are named according to the book's chapters:
+
+- =ch03-do-things.clj=
+- =ch04-core-functions-in-depth.clj=
+- ...and so on.
+
+Inside each file, comments are used to clearly delineate which
+exercise solution follows.
+
+** Usage
+These solutions are intended to be explored interactively using a
+Clojure REPL. Choose the method that best fits your workflow.
+
+The easiest way to explore the solutions is to connect your editor
+(e.g., Emacs with CIDER, VS Code with Calva, or IntelliJ with Cursive)
+to a REPL.
+
+1. Start a REPL from the project's root directory.
+2. Connect your editor to the running REPL.
+3. Open the chapter file you want to review (e.g.,
+   [[file:src/brave_clojure_exercises/ch03-do-things.clj]].
+4. Evaluate the code line-by-line or form-by-form directly from the
+   file into the REPL. This is the "interactive manner" the project
+   was designed for.
+
+You can also copy and paste the lines of interest in a simple Clojure
+REPL.
